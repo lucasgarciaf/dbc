@@ -1,4 +1,4 @@
-import nav_img from "../images/nav_img.jpg";
+import nav_img from "../images/Lucas BW-.jpg";
 
 export default function Header() {
   return (
