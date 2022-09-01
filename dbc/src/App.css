@@ -1,4 +1,5 @@
 .App {
+  position: absolute;
   text-align: center;
   background-color: #282c34;
   background-size: cover;
@@ -6,18 +7,68 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: white;
+  margin-top: 0px;
   margin-bottom: 0px;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  border-radius: 0px 0px 30px 30px;
+  border-color: #282c34;
+  border-width: 1px;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  height: auto;
+  opacity: 80%;
+  margin-top: 0px;
+}
+
+.h2_name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.h3_position {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #f3bf99;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Main-text-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  justify-content: left;
+  margin-bottom: 30px;
+}
+
+.Main-h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.Main-p {
+  text-align: left;
 }
 
 ul {
@@ -28,21 +79,94 @@ ul {
   padding: 20px;
 }
 
-ul > a,
+.div-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.Email-Button {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.LinkedIn-Button {
+  display: flex;
+  flex-direction: row;
+  background: #5093e2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  width: 200px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Email-link {
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 4px;
+}
+
+.LinkedIn-link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.button_text {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.icon {
+  font-size: 30px;
+}
+
+/* ul > a,
 a:hover,
 a:focus,
 a:active,
 a:visited {
-  color: red;
-}
+  color: #918e9b;
+} */
 
 ul > li {
   /* size: 40px; */
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 ul > a:visited {
   color: inherit;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 130px;
+  z-index: 98;
 }
 
 .footer-content {
@@ -51,16 +175,10 @@ ul > a:visited {
   align-items: center;
   justify-content: center;
   color: white;
-
-  margin-top: 20px;
-  padding: 30px;
-  border-width: 5px;
+  padding: 0px 0px 0px 0px;
+  border-width: 2px;
   border-color: gray;
   border-style: solid;
-  border-radius: 30px;
   box-shadow: #282c34;
-}
-
-.body {
-  color: black;
+  margin-top: 0px;
 }
